@@ -1,11 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Shipment from './pages/dashboard/shipment';
 import './App.css';
-import { Sidenav } from './components/shared';
 
 function App() {
   return (
-    <div className='text-sundrift'>
-      <Sidenav />
-    </div>
+    <Router>
+
+      <Routes>
+        <Route path='/' element={<Shipment />} />
+        {/* <Route path='' element={} /> */}
+      </Routes>
+    </Router>
   );
 }
 

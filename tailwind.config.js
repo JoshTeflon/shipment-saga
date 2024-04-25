@@ -6,8 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        base: '#244855',
-        sundrift: '#fbe9d0'
+        charcoal: '#121212',
+        deepOcean: '#244855',
+        sundrift: '#fbe9d0',
+        sunsetRed: '#e64833'
       }
     },
   },
